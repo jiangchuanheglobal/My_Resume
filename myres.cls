@@ -21,7 +21,7 @@
 \advance\hlinewidth by \titlewidth 
 \advance\hlinewidth by \sectionhskip 
 \advance\hlinewidth by \parawidth
-\advance\hlinewidth + 0.1in % a .1in offset to extend the header, this should not go here. Further study needed.
+\advance\hlinewidth + 0.1in % a .1in offset to extend the header line, this should not go here. Further study needed.
 
 
 \newcommand{\mysection}[2]{
