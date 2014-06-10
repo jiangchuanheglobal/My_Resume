@@ -10,7 +10,7 @@
 	\mycontact{382 Joe Mccarthy Dr}{{\sl Tel: }(716) 604-7268}
 	\mycontact{Amherst, NY 14228}{{\sl Email: }\myemail{jiangchu@buffalo.edu}}
 
-	\mycontact{}{{\sl Website: }\mywebsite{http://www.buffalo.edu/~jiangchu/}}
+%	\mycontact{}{{\sl Website: }\mywebsite{http://www.buffalo.edu/~jiangchu/}}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% education %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -31,53 +31,12 @@
 \end{itemize}
 
 }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% course projects %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\mysection{IMPRESSIVE \\ PROJECTS}
-{
-	\textbf{OS161 Kernel Implementation}
-	\par
-	\begin{itemize}[topsep=0pt, leftmargin=0.2in] \itemsep -5pt
-		\item Designed Synchronization Primitives, System Calls and Process Support, Virtual Memory
-			which supports swapping.
-		\item Used Git to manage source code and collaborate with parnter.
-		\item Built everything from startup and completed all the test cases. 
-	\end{itemize}
-	\par
-	\smallskip
-	\textbf{Distributed Hash Table Implementation}
-	\par
-	\begin{itemize}[topsep=0pt, leftmargin=0.2in] \itemsep -5pt
-			\item Implemented a Dynamo-style distributed hash table using 5 android emulators.
-			\item The program supports all Dynamo functions such as partition, replication and failure handling.
-	\end{itemize}
-	\par
-	\smallskip
-	\textbf{Gesture Recognition using Hidden Markov Model}
-	\par
-	\begin{itemize}[topsep=0pt, leftmargin=0.2in] \itemsep -5pt
-			\item Used Spatial Clustering to extract observation sequences.
-			\item Implemented Hidden Markov Model and used it to give prediction with almost 90\% correct rate.
-	\end{itemize}	
-}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% awards %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \mysection{HONORS AND\\ AWARDS}
 {
-	\textbf{Oracle ThinkQuest Competition(Global Top 10\%) \hfill  Jun.2012}
+	\textbf{Oracle ThinkQuest Competition(Global Top 10\% teams) \hfill  Jun.2012}
 	\par
-	We implemented a windows application which allows user to control multiple
-	computers in a group using one mouse and keyboard device. The features
-	include directly dragging files among screens and clipboard data sharing. I am the
-	major designer responsible for implementing application structure as well as the
-	features mentioned above.
-	\par
-	\smallskip
  	\textbf{Chinese Sciences Cup(National Top 13 teams) \hfill Sep.2011}
-	\par
-	We designed and implemented the early version of the multiple computers mouse
-	and keyboard sharing application. I launched this project in windows
-	MFC framework. I designed several key tricks such as using transparent window
-	and global hook to capture interactive messages.
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% working experience %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \mysection{WORKING \\ EXPERIENCE}
@@ -86,10 +45,10 @@
 	\par
 	{\it Software Engineer Intern}
   \begin{itemize}[topsep=0pt, leftmargin=0.2in] \itemsep -5pt
-			\item Learned to use ARM Cortex-M3 processor and STM32 development board
-			\item Successfully porting x86 $\mu$C/OS kernel to ARM Platform
+			\item Learned to use ARM Cortex-M3 processor and STM32 development board.
+			\item Successfully porting x86 $\mu$C/OS kernel to ARM Platform.
 			\item Implemented a two-axis machine tool control program based on
-				STM32F103 development board, which helped me gain the excellent award in my
+				STM32F103 development board, which was awarded in my
 				Undergraduate Final Project.
 	\end{itemize}
 	\par
@@ -99,9 +58,64 @@
 	{\it Web Developer Intern}
   \begin{itemize}[topsep=0pt, leftmargin=0.2in] \itemsep -5pt
 		\item Designed and Implemented a House-Selling Website.
-		\item My task was to write and test front end.
+		\item Wrote and maintained project documents.
+	  \item Implemented and tested front end code.
 	\end{itemize}
 	\par
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% course projects %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mysection{PROJECTS}
+{
+	\par
+	\textbf{Mouse and Keyboard Sharing Application\hfill Feb.2011}
+	\begin{itemize}[topsep=0pt, leftmargin=0.2in] \itemsep -5pt
+		\item Implemented a Windows Application which allows user to control multiple computers in a group using one mouse and keyboard device. 
+		\item The features included directly dragging files among screens and clipboard data sharing. 
+		\item I was the major designer responsible for implementing application structure as well as the
+					features mentioned above.
+	\end{itemize}
+
+	\par
+	\smallskip
+
+	\textbf{Concurrent Programming in Java and SML\hfill Sep.2013}
+	\begin{itemize}[topsep=0pt, leftmargin=0.2in] \itemsep -5pt
+		\item Implemented Coarse-grained and Fine-grained locking and improved their performance.
+		\item Given test on Doubly linked list with intensively frequent insert and delete operations.
+		\item Implemented message passing using Standard ML(SML/CML) language.	
+	\end{itemize}
+
+	\par
+	\smallskip
+
+	\textbf{OS161 Kernel Implementation \hfill Feb.2014}
+	\begin{itemize}[topsep=0pt, leftmargin=0.2in] \itemsep -5pt
+		\item Designed Synchronization Primitives, System Calls and Process Support, Virtual Memory
+			which supports swapping.
+		\item Used Git to manage source code and shell scrpits to improve efficiency.
+		\item Built everything from startup and completed all the test cases. 
+	\end{itemize}
+
+	\par
+	\smallskip
+
+	\textbf{Pen-gesture Recognition with Hidden Markov Models \hfill Apr.2014}
+	\begin{itemize}[topsep=0pt, leftmargin=0.2in] \itemsep -5pt
+			\item Designed spatial clustering algorithm to extract observation sequences.
+			\item Implemented Hidden Markov Model and used it to give prediction with almost 90\% correct rate.
+			\item Designed and implmented prediction algorithm also using Dynamic Time Warping and Viterbi decoding. 
+	\end{itemize}	
+
+	\par
+	\smallskip
+
+	\textbf{Amazon Dynamo(Distributed Key-Value Storage) \hfill May.2014}
+	\begin{itemize}[topsep=0pt, leftmargin=0.2in] \itemsep -5pt
+			\item Implemented a Dynamo-style key-value storage using 5 Android emulators.
+			\item Supported the functionality of partition, replication and failure handling.
+			\item Provided both availabiliy and linearizability at the same time using Quorum replication. 
+	\end{itemize}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% computer skills %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \mysection{COMPUTER \\ SKILLS}
