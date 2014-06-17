@@ -1,4 +1,3 @@
-My_Resume
-=========
+my simple latex resume
+==============================
 
-my latex resume project
